@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 100 300 300">
+    <defs>
+        <symbol id="eyeIcon" viewBox="0 0 100 100">
+            <!-- Eye outline (almond shape) -->
+            <path
+                d="M50 25C28 25 10 50 10 50s18 25 40 25 40-25 40-25S72 25 50 25zm0 42c-9.4 0-17-7.6-17-17s7.6-17 17-17 17 7.6 17 17-7.6 17-17 17z"
+                fill="#7C3AED"></path>
+            <!-- Iris -->
+            <circle cx="50" cy="50" r="13" fill="#7C3AED"></circle>
+            <!-- Pupil -->
+            <circle cx="50" cy="50" r="6" fill="#2D1B69"></circle>
+            <!-- Light reflection -->
+            <circle cx="55" cy="44" r="3.5" fill="#FFFFFF" opacity="0.85"></circle>
+            <!-- Sparkle top-right -->
+            <path
+                d="m82.355 17.961c-0.55078 0-1 0.44922-1 1v1.3125h-1.3125c-0.55078 0-1 0.44922-1 1 0 0.55078 0.44922 1 1 1h1.3125v1.3125c0 0.55078 0.44922 1 1 1s1-0.44922 1-1v-1.3125h1.3125c0.55078 0 1-0.44922 1-1 0-0.55078-0.44922-1-1-1h-1.3125v-1.3125c0-0.55469-0.44922-1-1-1z"
+                fill="#7C3AED"></path>
+            <!-- Sparkle bottom-left -->
+            <path
+                d="m13.734 78.145c0.55078 0 1-0.44922 1-1v-1.3125h1.3125c0.55078 0 1-0.44922 1-1s-0.44922-1-1-1h-1.3125v-1.3125c0-0.55078-0.44922-1-1-1s-1 0.44922-1 1v1.3125h-1.3125c-0.55078 0-1 0.44922-1 1s0.44922 1 1 1h1.3125v1.3125c0 0.55078 0.44922 1 1 1z"
+                fill="#7C3AED"></path>
+            <!-- Star element -->
+            <path
+                d="m89.66 55.441-1.1562-0.63281c-0.98438-0.53906-1.7891-1.3438-2.3281-2.3281l-0.63281-1.1562c-0.35156-0.64062-1.4023-0.64062-1.7539 0l-0.63281 1.1562c-0.53906 0.98438-1.3438 1.7891-2.3281 2.3281l-1.1562 0.63281c-0.32031 0.17578-0.51953 0.51172-0.51953 0.87891 0 0.36328 0.19922 0.70313 0.51953 0.87891l1.1562 0.63281c0.98438 0.53906 1.7891 1.3438 2.3281 2.3281l0.63281 1.1562c0.17578 0.32031 0.51172 0.51953 0.87891 0.51953 0.36328 0 0.70312-0.19922 0.87891-0.51953l0.63281-1.1562c0.53906-0.98438 1.3438-1.7891 2.3281-2.3281l1.1562-0.63281c0.32031-0.17578 0.51953-0.51172 0.51953-0.87891-0.003906-0.36719-0.20312-0.70312-0.52344-0.87891zm-4.9922 3.3359c-0.625-0.99609-1.4648-1.832-2.4609-2.4609 0.99609-0.625 1.8359-1.4648 2.4609-2.4609 0.625 0.99609 1.4648 1.832 2.4609 2.4609-0.99609 0.62891-1.8359 1.4688-2.4609 2.4609z"
+                fill="#7C3AED"></path>
+        </symbol>
+    </defs>
+    <rect width="300" height="300" rx="24" fill="#F8FAFC" x="100" y="100" style="stroke-width: 1;"></rect>
+    <rect x="109.375" y="109.375" width="281.25" height="281.25" rx="18" fill="none"
+        stroke="#CBD5E1" stroke-width="2" style="stroke-width: 2;"></rect>
+    <rect x="123.438" y="123.438" width="90" height="32.813" rx="10" fill="#7C3AED"
+        style="stroke-width: 1;"></rect>
+    <text x="168.438" y="145.703" text-anchor="middle" font-size="14" font-weight="800"
+        font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial"
+        fill="#FFFFFF" style="white-space: pre; stroke-width: 1; font-size: 16.4px;">VISION</text>
+    <use href="#eyeIcon" width="74" height="74"
+        transform="matrix(2.040992, 0, 0, 2.040992, 222.301224, 149.63739)" style=""></use>
+    <text x="128.125" y="332.448" font-size="28" font-weight="900"
+        font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial"
+        fill="#0F172A" style="white-space: pre; stroke-width: 1; font-size: 32.8px;">Deluxe</text>
+    <text x="128.125" y="369.948" font-size="14" font-weight="700"
+        font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial"
+        fill="#475569" style="white-space: pre; stroke-width: 1; font-size: 16.4px;">SMB Vision</text>
+</svg>
