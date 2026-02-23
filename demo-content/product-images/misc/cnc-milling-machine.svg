@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 100 300 300">
+    <defs>
+        <symbol id="cncIcon" viewBox="0 0 100 100">
+            <!-- Spindle/Column -->
+            <rect x="42" y="8" width="16" height="40" rx="3" fill="#2563EB"/>
+            <!-- Spindle head -->
+            <rect x="38" y="6" width="24" height="10" rx="2" fill="#2563EB"/>
+            <!-- End mill / cutting tool -->
+            <polygon points="47,48 53,48 51,62 49,62" fill="#2563EB"/>
+            <!-- Tool tip -->
+            <polygon points="49,62 51,62 50,66" fill="#2563EB"/>
+            <!-- Workpiece on table -->
+            <rect x="30" y="68" width="40" height="12" rx="2" fill="#2563EB"/>
+            <!-- Cutting sparks / lines -->
+            <line x1="44" y1="64" x2="38" y2="58" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/>
+            <line x1="56" y1="64" x2="62" y2="58" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/>
+            <line x1="42" y1="68" x2="36" y2="64" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/>
+            <line x1="58" y1="68" x2="64" y2="64" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/>
+            <!-- Table / Base -->
+            <rect x="20" y="80" width="60" height="6" rx="2" fill="#2563EB"/>
+            <!-- Base legs -->
+            <rect x="24" y="86" width="8" height="8" rx="1" fill="#2563EB"/>
+            <rect x="68" y="86" width="8" height="8" rx="1" fill="#2563EB"/>
+            <!-- Gear detail on spindle -->
+            <circle cx="50" cy="20" r="6" fill="none" stroke="#2563EB" stroke-width="2"/>
+            <circle cx="50" cy="20" r="2.5" fill="#2563EB"/>
+            <!-- Control panel -->
+            <rect x="62" y="30" width="14" height="18" rx="2" fill="#2563EB"/>
+            <rect x="65" y="33" width="8" height="5" rx="1" fill="#F8FAFC"/>
+            <circle cx="67" cy="42" r="1.5" fill="#F8FAFC"/>
+            <circle cx="72" cy="42" r="1.5" fill="#F8FAFC"/>
+            <!-- X-axis arrows on table -->
+            <line x1="25" y1="76" x2="75" y2="76" stroke="#2563EB" stroke-width="1" stroke-dasharray="3,2"/>
+        </symbol>
+    </defs>
+    <rect width="300" height="300" rx="24" fill="#F8FAFC" x="100" y="100" style="stroke-width: 1;"></rect>
+    <rect x="109.375" y="109.375" width="281.25" height="281.25" rx="18" fill="none"
+        stroke="#CBD5E1" stroke-width="2" style="stroke-width: 2;"></rect>
+    <rect x="123.438" y="123.438" width="60" height="32.813" rx="10" fill="#2563EB"
+        style="stroke-width: 1;"></rect>
+    <text x="153.438" y="145.703" text-anchor="middle" font-size="14" font-weight="800"
+        font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial"
+        fill="#FFFFFF" style="white-space: pre; stroke-width: 1; font-size: 16.4px;">CNC</text>
+    <use href="#cncIcon" width="74" height="74"
+        transform="matrix(2.040992, 0, 0, 2.040992, 222.301224, 149.63739)" style=""></use>
+    <text x="128.125" y="332.448" font-size="28" font-weight="900"
+        font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial"
+        fill="#0F172A" style="white-space: pre; stroke-width: 1; font-size: 32.8px;">Milling Machine</text>
+    <text x="128.125" y="369.948" font-size="14" font-weight="700"
+        font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial"
+        fill="#475569" style="white-space: pre; stroke-width: 1; font-size: 16.4px;">Custom design</text>
+</svg>
