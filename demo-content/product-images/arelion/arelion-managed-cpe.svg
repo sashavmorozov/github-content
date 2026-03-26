@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a365d"/>
+      <stop offset="100%" style="stop-color:#2b6cb0"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="20" fill="url(#bg)"/>
+  <!-- Router body -->
+  <rect x="45" y="70" width="110" height="55" rx="8" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <rect x="45" y="70" width="110" height="55" rx="8" fill="#fff" fill-opacity="0.08"/>
+  <!-- LED indicators -->
+  <circle cx="65" cy="85" r="4" fill="#4fd1c5"/>
+  <circle cx="80" cy="85" r="4" fill="#4fd1c5"/>
+  <circle cx="95" cy="85" r="4" fill="#4fd1c5"/>
+  <circle cx="110" cy="85" r="4" fill="#a0aec0" fill-opacity="0.4"/>
+  <!-- Ports -->
+  <rect x="60" y="105" width="12" height="10" rx="1" fill="none" stroke="#a0aec0" stroke-width="1.5"/>
+  <rect x="78" y="105" width="12" height="10" rx="1" fill="none" stroke="#a0aec0" stroke-width="1.5"/>
+  <rect x="96" y="105" width="12" height="10" rx="1" fill="none" stroke="#a0aec0" stroke-width="1.5"/>
+  <rect x="114" y="105" width="12" height="10" rx="1" fill="none" stroke="#a0aec0" stroke-width="1.5"/>
+  <!-- Antennas -->
+  <line x1="70" y1="70" x2="60" y2="48" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="60" cy="45" r="3" fill="#4fd1c5"/>
+  <line x1="130" y1="70" x2="140" y2="48" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="140" cy="45" r="3" fill="#4fd1c5"/>
+  <!-- Label -->
+  <text x="100" y="150" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="13" font-weight="bold">Managed CPE</text>
+  <text x="100" y="167" text-anchor="middle" fill="#a0aec0" font-family="Arial, sans-serif" font-size="10">Router / Firewall</text>
+</svg>

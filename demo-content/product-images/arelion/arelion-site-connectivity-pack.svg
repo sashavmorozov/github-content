@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a365d"/>
+      <stop offset="100%" style="stop-color:#2b6cb0"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="20" fill="url(#bg)"/>
+  <!-- Central building -->
+  <rect x="80" y="55" width="40" height="50" rx="3" fill="none" stroke="#fff" stroke-width="2"/>
+  <rect x="80" y="55" width="40" height="50" rx="3" fill="#fff" fill-opacity="0.08"/>
+  <!-- Windows -->
+  <rect x="86" y="62" width="8" height="8" rx="1" fill="#4fd1c5" fill-opacity="0.6"/>
+  <rect x="106" y="62" width="8" height="8" rx="1" fill="#4fd1c5" fill-opacity="0.6"/>
+  <rect x="86" y="76" width="8" height="8" rx="1" fill="#4fd1c5" fill-opacity="0.6"/>
+  <rect x="106" y="76" width="8" height="8" rx="1" fill="#4fd1c5" fill-opacity="0.6"/>
+  <rect x="94" y="90" width="12" height="15" rx="1" fill="#4fd1c5" fill-opacity="0.4"/>
+  <!-- Connection lines -->
+  <line x1="80" y1="80" x2="45" y2="65" stroke="#4fd1c5" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="120" y1="80" x2="155" y2="65" stroke="#4fd1c5" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="80" y1="95" x2="45" y2="110" stroke="#4fd1c5" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="120" y1="95" x2="155" y2="110" stroke="#4fd1c5" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- Satellite nodes -->
+  <circle cx="45" cy="62" r="8" fill="none" stroke="#4fd1c5" stroke-width="1.5"/>
+  <circle cx="45" cy="62" r="3" fill="#4fd1c5"/>
+  <circle cx="155" cy="62" r="8" fill="none" stroke="#4fd1c5" stroke-width="1.5"/>
+  <circle cx="155" cy="62" r="3" fill="#4fd1c5"/>
+  <circle cx="45" cy="113" r="8" fill="none" stroke="#4fd1c5" stroke-width="1.5"/>
+  <circle cx="45" cy="113" r="3" fill="#4fd1c5"/>
+  <circle cx="155" cy="113" r="8" fill="none" stroke="#4fd1c5" stroke-width="1.5"/>
+  <circle cx="155" cy="113" r="3" fill="#4fd1c5"/>
+  <!-- Bundle icon -->
+  <rect x="70" y="125" width="60" height="18" rx="9" fill="#4fd1c5" fill-opacity="0.2" stroke="#4fd1c5" stroke-width="1.5"/>
+  <text x="100" y="138" text-anchor="middle" fill="#4fd1c5" font-family="Arial, sans-serif" font-size="9" font-weight="bold">BUNDLE</text>
+  <!-- Label -->
+  <text x="100" y="165" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Site Connectivity</text>
+  <text x="100" y="182" text-anchor="middle" fill="#a0aec0" font-family="Arial, sans-serif" font-size="10">Pack</text>
+</svg>

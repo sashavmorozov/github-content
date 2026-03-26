@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a365d"/>
+      <stop offset="100%" style="stop-color:#2b6cb0"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="20" fill="url(#bg)"/>
+  <!-- Shield -->
+  <path d="M100 40 L140 60 L140 100 C140 130 100 150 100 150 C100 150 60 130 60 100 L60 60 Z" fill="none" stroke="#4fd1c5" stroke-width="3"/>
+  <path d="M100 50 L132 66 L132 98 C132 122 100 140 100 140 C100 140 68 122 68 98 L68 66 Z" fill="#4fd1c5" fill-opacity="0.15"/>
+  <!-- Check mark -->
+  <polyline points="82,95 95,108 118,80" fill="none" stroke="#4fd1c5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Label -->
+  <text x="100" y="170" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="13" font-weight="bold">DDoS Always-On</text>
+  <text x="100" y="187" text-anchor="middle" fill="#a0aec0" font-family="Arial, sans-serif" font-size="10">5 Gbps Protection</text>
+</svg>

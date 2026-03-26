@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a365d"/>
+      <stop offset="100%" style="stop-color:#2b6cb0"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="20" fill="url(#bg)"/>
+  <!-- Globe -->
+  <circle cx="100" cy="85" r="40" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <ellipse cx="100" cy="85" rx="20" ry="40" fill="none" stroke="#fff" stroke-width="1.5"/>
+  <line x1="60" y1="85" x2="140" y2="85" stroke="#fff" stroke-width="1.5"/>
+  <line x1="65" y1="68" x2="135" y2="68" stroke="#fff" stroke-width="1"/>
+  <line x1="65" y1="102" x2="135" y2="102" stroke="#fff" stroke-width="1"/>
+  <!-- Speed arrow -->
+  <path d="M75 130 L125 130" stroke="#4fd1c5" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="125,130 118,124 118,136" fill="#4fd1c5"/>
+  <!-- Label -->
+  <text x="100" y="158" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="13" font-weight="bold">DIA 1 Gbps</text>
+  <text x="100" y="175" text-anchor="middle" fill="#a0aec0" font-family="Arial, sans-serif" font-size="10">Dedicated Internet</text>
+</svg>
